@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仿小米官网</title>
+    <!-- 引入网站小图标 -->
+    <!-- 快捷键 link:favicon再按tab -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- 通过link标签引入字体类文件 -->
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/iconfont2.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- 顶部导航栏开始 -->
+    <div class="top_nav">
+        <!-- .w版心类 -->
+        <div class="w">
+            <!-- 左部分链接层 -->
+            <div class="links fl">
+                <a href="#">小米商城</a><span class="line">|</span>
+                <a href="#">MIUI</a><span class="line">|</span>
+                <a href="#">IoT</a><span class="line">|</span>
+                <a href="#">云服务</a><span class="line">|</span>
+                <a href="#">金融</a><span class="line">|</span>
+                <a href="#">有品</a><span class="line">|</span>
+                <a href="#">小爱开放平台</a><span class="line">|</span>
+                <a href="#">企业团购</a><span class="line">|</span>
+                <a href="#">资质证照</a><span class="line">|</span>
+                <a href="#">协议规则</a><span class="line">|</span>
+                <a href="#">下载app</a><span class="line">|</span>
+                <a href="#">Select Location</a>
+            </div>
+
+            <!-- 右部分登录层 -->
+            <div class="login fr">
+                <a href="#">登录</a><span class="line">|</span>
+                <a href="#">注册</a><span class="line">|</span>
+                <a href="#">消息通知</a>
+                <a href="#" class="shopcart"><span class="iconfont icon-gouwuche"></span>购物车（0）</a>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部导航栏结束 -->
+    <!-- 做新的内容的时候,可以先写文字,看看位置对不对,如果位置不对,一般是前面浮动造成的 -->
+    <!-- logo层开始 -->
+<div class="contentbaner">
+    <div class="logo w">
+        <!-- logo图片 -->
+        <div class="logo_img fl">
+            <a href="#"></a>
+        </div>
+    
+        <!-- 导航栏 -->
+        <div class="nav fl">
+            <ul>
+                <li><a href="#">小米手机</a></li>
+                <li><a href="#">Redmi 红米</a></li>
+                <li><a href="#">电视</a></li>
+                <li><a href="#">笔记本</a></li>
+                <li><a href="#">家电</a></li>
+                <li><a href="#">路由器</a></li>
+                <li><a href="#">智能硬件</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">社区</a></li>
+            </ul>
+        </div>
+
+        <!-- 搜索层 -->
+        <div class="search fr">
+            <input type="text" value="米家超级电池"/>
+            <span class="fdj">
+                <span class="iconfont icon-sousuo"></span>
+            </span>
+        </div>
+    </div>
+    <!-- logo层结束 -->
+    <!-- banner轮播开始 -->
+    <div class="banner w">
+        <!-- 背景图 -->
+        <a href="#" class="bg_banner"><img src="images/banner.jpg"/></a>
+
+        <!-- 左侧导航栏 -->
+        <div class="nav">
+            <ul>
+                <li><a href="#">手机 电话卡<span class="iconfont icon-left"></span></a></li>
+                <li><a href="#">电视 盒子<span class="iconfont icon-left"></span></a></li>
+                <li><a href="#">笔记本 显示器 平板<span class="iconfont icon-left"></span></a></li>
+                <li><a href="#">家电 插线板<span class="iconfont icon-left"></span></a></li>
+                <li><a href="#">出行 穿戴<span class="iconfont icon-left"></span></a></li>
+                <li><a href="#">智能 路由器<span class="iconfont icon-left"></span></a></li>
+                <li><a href="#">电源 配件<span class="iconfont icon-left"></span></a></li>
+                <li><a href="#">健康 儿童<span class="iconfont icon-left"></span></a></li>
+                <li><a href="#">耳机 音箱<span class="iconfont icon-left"></span></a></li>
+                <li><a href="#">生活 箱包<span class="iconfont icon-left"></span></a></li>
+            </ul>
+        </div>
+        <!-- 左箭头 -->
+        <span class="arrow_left"></span>
+        <!-- 右箭头 -->
+        <span class="arrow_right"></span>
+        <!-- 指示器 -->
+        <ol>
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+    <!-- banner轮播结束 -->    
+    <!-- 轮播图下的几个广告  小米秒杀层-->
+    <div class="under-adver w">
+        <!-- 左边的六个图标 -->
+        <ul class="left-icongroup clearfix">
+            <li><a href=""><span class="iconfont icon-miaosha"></span>小米秒杀</a></li>
+            <li><a href=""><span class="iconfont icon-company"></span>企业团购</a></li>
+            <li><a href=""><span class="iconfont icon-fma"></span>F码通道</a></li>
+            <li><a href=""><span class="iconfont icon-sim"></span>米粉卡</a></li>
+            <li><a href=""><span class="iconfont icon-yijiuhuanxin"></span>以旧换新</a></li>
+            <li><a href=""><span class="iconfont icon-icon-test"></span>话费充值</a></li>
+        </ul>
+        <!-- 右边的三个广告图 -->
+        <img src="images/product01.jpg" alt="">
+        <img src="images/product02.jpg" alt="">
+        <img src="images/product03.jpg" alt="">
+    </div>
+    <!-- 轮播图下面的广告结束 -->
+</div>
+    <!-- 页面右侧的固定导航栏 -->
+    <div class="fixed-nav">
+        <div class="nav-item first"><a href="#"><span class="iconfont icon-shouji"></span>手机app</a>
+        <!-- 悬停固定导航栏时显示的二维码 -->
+            <div class="hide-code">
+                <img src="images/wx-img.png" alt="">
+                <span>扫码领取新人百元礼包</span>
+                <div class="triangel"></div>
+            </div>
+        </div>
+        <div class="nav-item"><a href="#"><span class="iconfont icon-geren"></span>个人中心</a></div>
+        <div class="nav-item"><a href="#"><span class="iconfont icon-xiuli"></span>售后服务</a></div>
+        <div class="nav-item"><a href="#"><span class="iconfont icon-kefu"></span>人工客服</a></div>
+        <div class="nav-item "><a href="#"><span class="iconfont icon-gouwuche"></span>购物车</a></div>
+        <div class="nav-item backup"><a href="#"><span class="iconfont icon-huidingbu"></span>回到顶部</a></div>
+    </div>
+    <!-- 悬停固定导航栏时显示的二维码 -->
+    <div class="hide-code">
+        <img src="images/mi_app.png" alt="">
+        <span>扫码领取新人百元礼包</span>
+        <div class="triangel"></div>
+        <div class="out-triangel"></div>
+    </div>
+    <!-- 闪购层 -->
+    <div class="flash-buy-box w">
+        <div class="title-box clearfix">
+            <span>小米闪购</span>
+             <div class="arrow">
+                 <span class="iconfont icon-arrow-left-copy"></span>
+                 <span class="iconfont icon-left"></span>
+             </div>
+        </div>
+        <div class="flash-buy-content clearfix">
+            <div class="content-item first-item">
+                <span>22:00场</span>
+                <img src="images/iflashbuy.jpg" alt="">
+                <p>距离结束还有</p>
+                <div class="countdown-box">
+                    <div class="countdown-item">
+                        00
+                    </div>
+                    <i>:</i>
+                    <div class="countdown-item">
+                        20                       
+                    </div>
+                     <i>:</i>
+                    <div class="countdown-item">
+                        00                       
+                    </div>
+                </div>
+            </div>
+            <div class="content-item boder-blue">
+                <a href="#">
+                    <img src="images/iflashbuy01.png" alt="">
+                    <span class="name">小米小爱音箱 Play（白色）量产版 白色</span>
+                    <span class="tag">听音乐、语音遥控家电</span>
+                    <span class="price">99元 <i>169元<i></span>
+                </a>
+            </div>
+            <div class="content-item boder-green">
+                <a href="#">
+                    <img src="images/iflashbuy02.png" alt="">
+                    <span class="name">米家扫拖一体机器人 白色</span>
+                    <span class="tag">扫得干净，拖得彻底</span>
+                    <span class="price">1599元 <i>1999元<i></span>
+                </a>
+            </div>
+            <div class="content-item boder-orange">
+                <a href="#">
+                    <img src="images/iflashbuy03.png" alt="">
+                    <span class="name">小米米家智能门锁 标准碳素黑</span>
+                    <span class="tag">一体化活体指纹识别，多种开锁方式</span>
+                    <span class="price">1199元 <i>1299元<i></span>
+                </a>
+            </div>
+            <div class="content-item boder-deepred">
+                <a href="#">
+                    <img src="images/iflashbuy04.png" alt="">
+                    <span class="name">MIJOY 抽纸青春版 24包/箱 </span>
+                    <span class="tag">精选原生竹浆，健康环保</span>
+                    <span class="price">27.9元 <i>32.9元<i></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 闪购层下的广告图 -->
+    <div class="under-flash-buy-adbox  w">
+        <img src="./images/tiantianxiangshang.png" alt="">
+    </div>
+    <!--手机商城栏-->
+    <div class="phoneshop-box w">
+        <div class="phoneshop-title">
+            <div class="left fl">手机</div>
+            <div class="right fr"><a>查看全部<span class="iconfont icon-gengduo"></span></a></div>
+        </div>
+        <div class="phoneshop-content clearfix">
+            <div class="phoneshop-item1">
+                <img src="./images/9.png" alt="">
+            </div>
+            <div class="phoneshop-rightbox clearfix">
+                <div class="phoneshop-item">
+                    <a href="#">
+                        <img src="images/0.png" alt="">
+                        <span class="name">小米10 青春版 5G</span>
+                        <span class="tag">50倍潜望式变焦 / 轻薄5G手机</span>
+                        <span class="price">2099起</span>
+                    </a>
+                </div>
+                <div class="phoneshop-item">
+                    <a href="#">
+                        <img src="images/1.png" alt="">
+                        <span class="name">小米10</span>
+                        <span class="tag">骁龙865/1亿像素相机</span>
+                        <span class="price">3999元起</span>
+                    </a>
+                </div>
+                <div class="phoneshop-item">
+                    <a href="#">
+                        <img src="images/2.png" alt="">
+                        <span class="name">Redmi K30 Pro</span>
+                        <span class="tag">双模5G，骁龙865，弹出全面屏</span>
+                        <span class="price">2999元起</span>
+                    </a>
+                </div>
+                <div class="phoneshop-item">
+                    <a href="#">
+                        <img src="images/3.png" alt="">
+                        <span class="name">Redmi K30 Pro 变焦版</span>
+                        <span class="tag">双模5G，骁龙865，弹出全面屏</span>
+                        <span class="price">3799元</span>
+                    </a>
+                </div>
+                <div class="phoneshop-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/4.png" alt="">
+                        <span class="name">小米10 Pro</span>
+                        <span class="tag">骁龙865 / 50倍变焦</span>
+                        <span class="price">4999元起</span>
+                    </a>
+                </div>
+                <div class="phoneshop-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/5.png" alt="">
+                        <span class="name">Redmi K30</span>
+                        <span class="tag">120Hz流速屏，全速热爱</span>
+                        <span class="price">1599元起</span>
+                    </a>
+                </div>
+                <div class="phoneshop-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/6.png" alt="">
+                        <span class="name">Redmi K30 5G</span>
+                        <span class="tag">双模5G，120Hz流速屏</span>
+                        <span class="price">1999元起</span>
+                    </a>
+                </div>
+                <div class="phoneshop-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/7.png" alt="">
+                        <span class="name">Redmi 8</span>
+                        <span class="tag">5000mAh超长续航</span>
+                        <span class="price">799元起<i>899元<i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 家电商城栏上的广告 -->
+    <div class="home-appliance-adbox  w">
+        <a href=""><img src="./images/home_banner02.png" alt=""></a>
+    </div>
+    <!-- 家电商城栏 -->
+    <div class="home-appliance-box w">
+        <div class="home-appliance-title">
+            <div class="left fl">电视</div>
+            <div class="right fr"><a>热门</a><a href="#" style="margin-right: 0;">电视影音</a></div>
+        </div>
+        <div class="home-appliance-content clearfix">
+            <div class="home-appliance-item1">
+                <div class="item-img"><a href="#"><img src="./images/TV01.webp" alt=""></a></div>
+                <div class="item-img marginB0"><a href="#"><img src="./images/TV02.webp" alt=""></a></div>
+            </div>
+            <div class="home-appliance-rightbox clearfix">
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/12.png" alt="">
+                        <span class="name">Redmi 红米电视 70英寸 </span>
+                        <span class="tag">70英寸震撼巨屏，4K画质，细腻如真</span>
+                        <span class="price">2999元<i>3799元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/13.png" alt="">
+                        <span class="name">小米全面屏电视E32C</span>
+                        <span class="tag">全面屏设计，人工智能系统</span>
+                        <span class="price">699元<i>899元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/14.png" alt="">
+                        <span class="name">小米全面屏电视E55A</span>
+                        <span class="tag">全面屏设计，人工智能语音</span>
+                        <span class="price">1749元<i>1999元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/15.png" alt="">
+                        <span class="name">米家空调</span>
+                        <span class="tag">出众静音，快速制冷热</span>
+                        <span class="price">1499元<i>1799元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/16.png" alt="">
+                        <span class="name">米家互联网洗烘一体机 Pro 10kg</span>
+                        <span class="tag">智能洗烘，省心省力</span>
+                        <span class="price">2999元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/17.png" alt="">
+                        <span class="name">Redmi全自动波轮洗衣机1A 8kg</span>
+                        <span class="tag">一键操作，父母都爱用</span>
+                        <span class="price">779元<i>899元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/18.png" alt="">
+                        <span class="name">15.6" 四核i7 16G 独显 512G</span>
+                        <span class="tag">全面均衡的国民轻薄本</span>
+                        <span class="price">4699元<i>4899元</i></span>
+                    </a>
+                </div>
+                <div class="clearbottomboder last-item">
+                    <a class="top" href="#">
+                        <div class="introduce">
+                            <h3>Air 13.3" 2019款 </h3>
+                            <P>4999元起</P>
+                        </div>
+                        <div class="photo">
+                            <img src="images/19.png" alt="">
+                        </div>
+                    </a>
+
+                    <a  class="bottom" href="#">
+                        <div class="introduce">
+                            <h3>浏览更多</h3>
+                            <P>热门</P>
+                        </div>
+                        <div class="photo">
+                            <span class="iconfont icon-yuanjiantou"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 智能商城栏上的广告 -->
+    <div class="home-appliance-adbox  w">
+        <a href=""><img src="./images/home_banner03.png" alt=""></a>
+    </div>
+    <!-- 智能商城栏 -->
+    <div class="home-appliance-box w">
+        <div class="home-appliance-title">
+            <div class="left fl">智能</div>
+            <div class="right fr"><a>热门</a><a>安防</a><a href="#" style="margin-right: 0;">出行</a></div>
+        </div>
+        <div class="home-appliance-content clearfix">
+            <div class="home-appliance-item1">
+                <div class="item-img"><a href="#"><img src="./images/20.png" alt=""></a></div>
+                <div class="item-img marginB0"><a href="#"><img src="./images/21.png" alt=""></a></div>
+            </div>
+            <div class="home-appliance-rightbox clearfix">
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/22.png" alt="">
+                        <span class="name">小米「小爱老师」 </span>
+                        <span class="tag">英语提分利器</span>
+                        <span class="price">429元起<i>499元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/23.png" alt="">
+                        <span class="name">小米米家智能门锁 推拉式</span>
+                        <span class="tag">一步推拉，高端智能门锁</span>
+                        <span class="price">1699元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/24.png" alt="">
+                        <span class="name">小爱音箱万能遥控版</span>
+                        <span class="tag">传统家电秒变智能</span>
+                        <span class="price">149元<i>199元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/25.png" alt="">
+                        <span class="name">米家电饭煲4L</span>
+                        <span class="tag">890W 立体加热</span>
+                        <span class="price">269元<i>299元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/26.png" alt="">
+                        <span class="name">米家互联网洗烘一体机 Pro 10kg</span>
+                        <span class="tag">智能洗烘，省心省力</span>
+                        <span class="price">2999元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/27.png" alt="">
+                        <span class="name">小米手环4</span>
+                        <span class="tag">大屏彩显，20天超长续航</span>
+                        <span class="price">169元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/28.png" alt="">
+                        <span class="name">小米体脂秤2</span>
+                        <span class="tag">轻松掌握身体脂肪率</span>
+                        <span class="price">99元</span>
+                    </a>
+                </div>
+                <div class="clearbottomboder last-item">
+                    <a class="top" href="#">
+                        <div class="introduce">
+                            <h3>九号平衡车</h3>
+                            <P>1999元</P>
+                        </div>
+                        <div class="photo">
+                            <img src="images/29.png" alt="">
+                        </div>
+                    </a>
+
+                    <a  class="bottom" href="#">
+                        <div class="introduce">
+                            <h3>浏览更多</h3>
+                            <P>热门</P>
+                        </div>
+                        <div class="photo">
+                            <span class="iconfont icon-yuanjiantou"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 搭配商城栏上的广告 -->
+    <div class="home-appliance-adbox  w">
+        <a href=""><img src="./images/home_banner04.png" alt=""></a>
+    </div>
+    <!-- 搭配商城栏 -->
+    <div class="home-appliance-box w">
+        <div class="home-appliance-title">
+            <div class="left fl">搭配</div>
+            <div class="right fr"><a>热门</a><a href="#" style="margin-right: 0;">耳机音响</a></div>
+        </div>
+        <div class="home-appliance-content clearfix">
+            <div class="home-appliance-item1">
+                <div class="item-img"><a href="#"><img src="./images/30.png" alt=""></a></div>
+                <div class="item-img marginB0"><a href="#"><img src="./images/31.png" alt=""></a></div>
+            </div>
+            <div class="home-appliance-rightbox clearfix">
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/32.png" alt="">
+                        <span class="name">小米真无线蓝牙耳机 Air 2</span>
+                        <span class="tag">智能真无线，轻松舒适戴</span>
+                        <span class="price">369元<i>399元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/33.png" alt="">
+                        <span class="name">高速无线充套装</span>
+                        <span class="tag">快速无线闪充，Qi充电标准</span>
+                        <span class="price">149元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/34.png" alt="">
+                        <span class="name">Redmi充电宝 10000mAh 标准版 白色</span>
+                        <span class="tag">10000mAh大电量</span>
+                        <span class="price">59元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/35.png" alt="">
+                        <span class="name">Redmi充电宝 20000mAh 快充版</span>
+                        <span class="tag">大容量， 可上飞机</span>
+                        <span class="price">99元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/36.png" alt="">
+                        <span class="name">小米插线板 5孔位</span>
+                        <span class="tag">多重安全保护</span>
+                        <span class="price">39元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/37.png" alt="">
+                        <span class="name">小米蓝牙耳机AirDots青春版</span>
+                        <span class="tag">雅致简约，收纳充电盒</span>
+                        <span class="price">199元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/38.png" alt="">
+                        <span class="name">小米小爱蓝牙音箱 随身版</span>
+                        <span class="tag">小巧便携，一键唤醒小爱</span>
+                        <span class="price">39元<i>49元</i></span>
+                    </a>
+                </div>
+                <div class="clearbottomboder last-item">
+                    <a class="top" href="#">
+                        <div class="introduce">
+                            <h3>小米小爱触屏音箱</h3>
+                            <P>199元起</P>
+                        </div>
+                        <div class="photo">
+                            <img src="images/39.png" alt="">
+                        </div>
+                    </a>
+
+                    <a  class="bottom" href="#">
+                        <div class="introduce">
+                            <h3>浏览更多</h3>
+                            <P>热门</P>
+                        </div>
+                        <div class="photo">
+                            <span class="iconfont icon-yuanjiantou"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 配件商城栏上的广告 -->
+    <div class="home-appliance-adbox  w">
+        <a href=""><img src="./images/home_banner05.png" alt=""></a>
+    </div>
+    <!-- 配件商城栏 -->
+    <div class="home-appliance-box w">
+        <div class="home-appliance-title">
+            <div class="left fl">配件</div>
+            <div class="right fr"><a>热门</a><a href="#">保护套</a><a href="#" style="margin-right: 0;">充电器</a></div>
+        </div>
+        <div class="home-appliance-content clearfix">
+            <div class="home-appliance-item1">
+                <div class="item-img"><a href="#"><img src="./images/40.png" alt=""></a></div>
+                <div class="item-img marginB0"><a href="#"><img src="./images/41.png" alt=""></a></div>
+            </div>
+            <div class="home-appliance-rightbox clearfix">
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/42.png" alt="">
+                        <span class="name">小米USB充电器30W快充版（1A1C）</span>
+                        <span class="tag">多一种接口，多一种选择</span>
+                        <span class="price">59元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/43.png" alt="">
+                        <span class="name">高速无线充套装</span>
+                        <span class="tag">快速无线闪充，Qi充电标准</span>
+                        <span class="price">149元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/44.png" alt="">
+                        <span class="name">小米无线充电宝青春版10000mAh</span>
+                        <span class="tag">能量满满，无线有线都能充</span>
+                        <span class="price">129元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/45.png" alt="">
+                        <span class="name">米家LED随身灯</span>
+                        <span class="tag">小巧轻便 5级亮度调节</span>
+                        <span class="price">19.9元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/46.png" alt="">
+                        <span class="name">移动电源高配版（10000mAh）</span>
+                        <span class="tag">轻薄设计，轻松出行</span>
+                        <span class="price">149元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/47.png" alt="">
+                        <span class="name">小米二合一数据线100cm</span>
+                        <span class="tag">支持快充，安全保护</span>
+                        <span class="price">24.9元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/48.png" alt="">
+                        <span class="name">小米真无线蓝牙耳机 Air 2</span>
+                        <span class="tag">智能真无线，轻松舒适戴</span>
+                        <span class="price">369元<i>399元</i></span>
+                    </a>
+                </div>
+                <div class="clearbottomboder last-item">
+                    <a class="top" href="#">
+                        <div class="introduce">
+                            <h3>小米CC9e 高透果冻保护壳</h3>
+                            <P>49元</P>
+                        </div>
+                        <div class="photo">
+                            <img src="images/49.png" alt="">
+                        </div>
+                    </a>
+
+                    <a  class="bottom" href="#">
+                        <div class="introduce">
+                            <h3>浏览更多</h3>
+                            <P>热门</P>
+                        </div>
+                        <div class="photo">
+                            <span class="iconfont icon-yuanjiantou"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 周边栏上的广告 -->
+    <div class="home-appliance-adbox  w">
+        <a href=""><img src="./images/home_banner06.png" alt=""></a>
+    </div>
+    <!-- 周边商城栏 -->
+    <div class="home-appliance-box w">
+        <div class="home-appliance-title">
+            <div class="left fl">周边</div>
+            <div class="right fr"><a>热门</a><a href="#" style="margin-right: 0;">出行</a></div>
+        </div>
+        <div class="home-appliance-content clearfix">
+            <div class="home-appliance-item1">
+                <div class="item-img"><a href="#"><img src="./images/50.png" alt=""></a></div>
+                <div class="item-img marginB0"><a href="#"><img src="./images/51.png" alt=""></a></div>
+            </div>
+            <div class="home-appliance-rightbox clearfix">
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/52.png" alt="">
+                        <span class="name">米家飞行员太阳镜 Pro</span>
+                        <span class="tag">尼龙偏光，轻巧佩戴</span>
+                        <span class="price">189元<i>199元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/53.png" alt="">
+                        <span class="name">小米巨能写中性笔10支装<i></i></span>
+                        <span class="tag">一支顶4支，超长顺滑书写<i></i></span>
+                        <span class="price">9.99元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/54.png" alt="">
+                        <span class="name">小米旅行箱 20英寸 布朗熊限量版</span>
+                        <span class="tag">“国际巨星” LINE FRIENDS布朗熊</span>
+                        <span class="price">279元<i>399元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item">
+                    <a href="#">
+                        <img src="images/55.png" alt="">
+                        <span class="name">米家迷你保温杯</span>
+                        <span class="tag">可以随身携带的温度</span>
+                        <span class="price">49元</span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/56.png" alt="">
+                        <span class="name">米家驱蚊器基础版 3个装</span>
+                        <span class="tag">3个装 长效驱蚊</span>
+                        <span class="price">109元<i>129元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/57.png" alt="">
+                        <span class="name">3卷装抽绳式垃圾袋</span>
+                        <span class="tag">让清洁更简单</span>
+                        <span class="price">9.9元<i>14.9元</i></span>
+                    </a>
+                </div>
+                <div class="home-appliance-item clearbottomboder">
+                    <a href="#">
+                        <img src="images/58.png" alt="">
+                        <span class="name">贝医生巴氏牙刷 四色装</span>
+                        <span class="tag">进口刷毛，好品质</span>
+                        <span class="price">39.9元</span>
+                    </a>
+                </div>
+                <div class="clearbottomboder last-item">
+                    <a class="top" href="#">
+                        <div class="introduce">
+                            <h3>8H 乳胶弹簧静音床垫 M3</h3>
+                            <P>1499元起</P>
+                        </div>
+                        <div class="photo">
+                            <img src="images/59.png" alt="">
+                        </div>
+                    </a>
+
+                    <a  class="bottom" href="#">
+                        <div class="introduce">
+                            <h3>浏览更多</h3>
+                            <P>热门</P>
+                        </div>
+                        <div class="photo">
+                            <span class="iconfont icon-yuanjiantou"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 视频栏上的广告 -->
+    <div class="home-appliance-adbox  w">
+        <a href=""><img src="./images/home_banner07.png" alt=""></a>
+    </div>
+    <!-- 视频栏 -->
+    <div class="videobox w">
+        <div class="phoneshop-title">
+            <div class="left fl">视频</div>
+            <div class="right fr"><a>查看全部<span class="iconfont icon-gengduo"></span></a></div>
+        </div>
+        <div class="video-content">
+            <ul class="clearfix">
+                <li>
+                    <div class="video-item marginL0">
+                        <a href="#">
+                            <div class="playbutton"><span class="iconfont icon-tubiaozhizuomoban"></span></div>
+                            <img src="./images/video_img01.png" alt="">
+                            <h3>小米10 青春版 发布会</h3>                            
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="video-item">
+                        <a href="#">
+                            <div class="playbutton"><span class="iconfont icon-tubiaozhizuomoban"></span></div>
+                            <img src="./images/video_img02.png" alt="">
+                            <h3>小米10 8K手机拍大片</h3>                            
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="video-item">
+                        <a href="#">
+                            <div class="playbutton"><span class="iconfont icon-tubiaozhizuomoban"></span></div>
+                            <img src="./images/video_img03.png" alt="">
+                            <h3>小米10发布会</h3>                            
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="video-item">
+                        <a href="#">
+                            <div class="playbutton"><span class="iconfont icon-tubiaozhizuomoban"></span></div>
+                            <img src="./images/video_img04.png" alt="">
+                            <h3>小米MIX Alpha 开箱视频</h3>                            
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 底部栏 -->
+    <div class="finalbottom-box">
+        <div class="finalbottom-content w">
+            <div class="title">
+                <ul class="clearfix">
+                    <li>
+                        <a href=""><span class="iconfont icon-xiuli"></span>预约维修服务</a>
+                    </li>
+                    <li>
+                        <a href=""><span class="iconfont icon-tian1"></span>7天无理由退货</a>
+                    </li>
+                    <li>
+                        <a href=""><span class="iconfont icon-tian"></span>15天免费换货</a>
+                    </li>
+                    <li>
+                        <a href=""><span class="iconfont icon-lihe"></span>满99元包邮</a>
+                    </li>
+                    <li class="boder0"> 
+                        <a href=""><span class="iconfont icon-didian"></span>520余家售后网点</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 底部栏中的中间部分的列表 -->
+            <div class="middleinforbox clearfix">
+                <ul class="helpcenter-ul">
+                    <h3>帮助中心</h3>
+                    <li><a href="#">账户管理</a></li>
+                    <li><a href="#">购物指南</a></li>
+                    <li class="marginB0"><a href="#">订单操作</a></li>
+                </ul>
+                <ul class="serversupport-ul">
+                    <h3>服务支持</h3>
+                    <li><a href="#">售后政策</a></li>
+                    <li><a href="#">自助服务</a></li>
+                    <li class="marginB0"><a href="#">相关下载</a></li>
+                </ul>
+                <ul class="offlineshop-ul">
+                    <h3>线下门店</h3>
+                    <li><a href="#">小米之家</a></li>
+                    <li><a href="#">服务网点</a></li>
+                    <li class="marginB0"><a href="#">授权体验店</a></li>
+                </ul>
+                <ul class="aboutmi-ul">
+                    <h3>关于小米</h3>
+                    <li><a href="#">了解小米</a></li>
+                    <li><a href="#">加入小米</a></li>
+                    <li><a href="#">投资者关系</a></li>
+                    <li><a href="#">企业社会责任</a></li>
+                    <li class="marginB0"><a href="#">廉洁举报</a></li>
+                </ul>
+                <ul class="aboutus-ul">
+                    <h3>关注我们</h3>
+                    <li><a href="#">新浪微博</a></li>
+                    <li><a href="#">官方微信</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li class="marginB0"><a href="#">公益基金会</a></li>
+                </ul>
+                <ul class="specalserver-ul marginR0">
+                    <h3>特色服务</h3>
+                    <li><a href="#">F 码通道</a></li>
+                    <li><a href="#">礼物码</a></li>
+                    <li class="marginB0"><a href="#">防伪查询</a></li>
+                </ul>
+                <div class="rightdetail-box">
+                    <h3>400-100-5678</h3>
+                    <p>8:00-18:00（仅收市话费）</p>
+                    <div class="staffserver-box"><a href="#"><span class="iconfont icon-xinxi"></span>人工客服</a></div>
+                    <div class="followus">关注小米: <a href=""><span class="iconfont icon-weibo"></span> </a><a href="#"><span class="iconfont icon-weixin"><div class="micode"><img src="./images/wx-img.png" alt=""></div></span></a></div>
+                </div>
+            </div>
+            <!-- 底部栏的相关软件列表 -->
+            <div class="infortextbox">
+                <ul class="clearfix">
+                    <li><a href="#">小米商城</a></li>
+                    <span>|</span>
+                    <li><a href="#">MIUI</a></li>
+                    <span>|</span>
+                    <li><a href="#">米家</a></li>
+                    <span>|</span>
+                    <li><a href="#">米聊</a></li>
+                    <span>|</span>
+                    <li><a href="#">多看</a></li>
+                    <span>|</span>
+                    <li><a href="#">游戏</a></li>
+                    <span>|</span>
+                    <li><a href="#">政企服务</a></li>
+                    <span>|</span>
+                    <li><a href="#">小米天猫店</a></li>
+                    <span>|</span>
+                    <li><a href="#">小米集团隐私政策</a></li>
+                    <span>|</span>
+                    <li><a href="#">小米公司儿童信息保护规则</a></li>
+                    <span>|</span>
+                    <li><a href="#">小米商城隐私政策</a></li>
+                    <span>|</span>
+                    <li><a href="#">小米商城用户协议</a></li>
+                    <span>|</span>
+                    <li><a href="#">问题反馈</a></li>
+                    <span>|</span>
+                    <li><a href="#">Select Location</a></li>
+                </ul>
+            </div>
+            <!-- 底部资质信息 -->
+            <div class="qualityinfor-box">
+                <ul class="qualityinfor-ul1 clearfix">
+                    <li><a href="#">© mi.com</a></li>
+                    <li>京ICP证110507号</li>
+                    <li><a href="#">京ICP备10046444号</a></li>
+                    <li><a href="#">京公网安备11010802020134号</a></li>
+                    <li><a href="#">京网文[2020]0276-042号</a></li>
+                </ul>
+                <ul class="qualityinfor-ul2 clearfix">
+                    <li><a href="">（京）网械平台备字（2018）第00005号</a></li>
+                    <li><a href="">互联网药品信息服务资格证</a></li>
+                    <li><a href="">(京)-非经营性-2014-0090</a></li>
+                    <li><a href="">营业执照</a></li>
+                    <li><a href="">医疗器械质量公告</a></li>  
+                </ul>
+                <ul class="qualityinfor-ul3 clearfix">
+                    <li><a href="">增值电信业务许可证</a></li>
+                    <li>网络食品经营备案（京）【2018】WLSPJYBAHF-12</li>
+                    <li><a href="">食品经营许可证</a></li> 
+                </ul>
+                <ul class="qualityinfor-ul4 clearfix">
+                    <li>违法和不良信息举报电话：185-0130-1238</li>
+                    <li><a href="#">知识产权侵权投诉</a></li>
+                    <li>本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</li> 
+                </ul>
+                <div class="quality-photobox">
+                    <ul class="clearfix">
+                        <li><a href="#"><img src="./images/truste.png" alt=""></a></li>
+                        <li><a href="#"><img src="./images/v-logo-1.png" alt=""></a></li>
+                        <li><a href="#"><img src="./images/v-logo-2.png" alt=""></a></li>
+                        <li><a href="#"><img src="./images/v-logo-3.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

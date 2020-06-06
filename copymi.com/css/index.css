@@ -1,0 +1,220 @@
+ /* 具体样式 先大盒子,后小盒子 */
+ .top_nav{
+    height: 40px;
+    line-height: 40px;
+    background: #333333;
+}
+.top_nav .links a{
+    float: left;
+    color:#b0b0b0;
+}
+.top_nav .links a:hover{
+    color:#ffffff;
+}
+
+/* 那条竖线 */
+.top_nav .links .line{
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+    color:#424242;
+}
+.top_nav .login a{
+    float: left;
+    color:#b0b0b0;
+}
+.top_nav .login a:hover{
+    color:#ffffff;
+}
+.top_nav .login .line{
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+    color:#424242;
+}
+.top_nav .login .shopcart{
+    width: 120px;
+    height: 40px;
+    background: #424242;
+    margin-left: 24px;
+    text-align: center;
+}
+.top_nav .login .shopcart:hover{
+    color:#ff6700;
+    background: white;
+}
+/* 字体图标的优势就是兼容性特别好,兼容所有浏览器并且支持移动端 */
+/* 字体图标其实就是一个字体,那么字体相关样式它也可以生效 */
+.top_nav .login .shopcart .icon-gouwuche{
+    margin-right: 5px;
+}
+
+
+
+/* 因为style标签可以出现页面的任意地方,出现任意次数 */
+        /* logo层样式开始 */
+        .logo{
+            height: 100px;
+            background: white;
+        }
+        .logo .logo_img{
+            width: 55px;
+            height: 55px;
+            margin-top: 22px;
+            margin-right: 190px;
+        }
+        .logo .logo_img a{
+            width: 100%;
+            height: 100%;
+            display: block;
+            background:url(../images/mi-logo.png) center center #ff6700;
+        }
+        .logo .nav{
+            margin-top: 42px;
+        }
+        /* 因为a链接设置href属性以后,有自己的字体颜色,所以不从父元素中继承 */
+        .logo .nav ul li{
+            float: left;
+        }
+        .logo .nav ul li a{
+            color:#333333;
+            font-size:16px;
+            margin-right: 21px;
+        }
+        /* 去掉最后一个li中a标签的右外边距 */
+        .logo .nav ul li:last-child a{
+            margin-right: 0;
+        }
+        .logo .nav ul li a:hover{
+            color:#ff6700;
+        }
+        .logo .search{
+            width: 294px;
+            height: 48px;
+            border:1px solid #e0e0e0;
+            margin-top: 25px;
+        }
+        .logo .search input{
+            border:none;
+            outline:none;
+            width: 243px;
+            height: 48px;
+            line-height: 48px;
+            text-indent: 11px;
+            color:#757575;
+        }
+        .logo .search .fdj{
+            width: 48px;
+            height: 50px;
+            float: right;
+            border-left:1px solid #e0e0e0;
+            text-align: center;
+            line-height: 50px;
+            /* 鼠标模拟小手 */
+            cursor: pointer;
+        }
+        .logo .search .fdj:hover{
+            background: #ff6700;
+            border-left:1px solid #ff6700;
+            color:white;
+        }
+        .logo .search .fdj .icon-sousuo{
+            font-size:20px;
+        }
+        /* logo层样式结束 */
+
+
+         /* banner轮播层样式开始 */
+         .banner{
+            height: 460px;
+            /* background: skyblue; */
+            /* 父相 */
+            position: relative;
+        }
+        .banner .nav{
+            width: 233px;
+            height: 440px;
+            background: rgba(105,101,101,.6);
+            padding-top: 20px;
+            /* 子绝 */
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .banner .nav ul li{
+            height: 42px;
+            line-height: 42px;
+        }
+        .banner .nav ul li a{
+            height: 100%;
+            display: block;
+            padding-left: 30px;
+            padding-right: 23px;
+            color:#ffffff;
+            font-size:14px;
+        }
+        .banner .nav ul li a span{
+            float: right;
+        }
+        .banner .nav ul li a:hover{
+            background: #ff6700;
+        }
+        .banner .bg_banner{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        .banner .bg_banner img{
+            width: 100%;
+            height: 100%;
+        }
+        .banner .arrow_left,.banner .arrow_right{
+            width: 41px;
+            height: 69px;
+            position: absolute;
+            top: 50%;
+            margin-top: -35px;
+            cursor: pointer;
+        }
+        .banner .arrow_left{
+            left: 233px;
+            background:url(images/icon-slides.png) -86px 0;
+        }
+        .banner .arrow_left:hover{
+            background-position: left top;
+        }
+        .banner .arrow_right{
+            right: 0px;
+            background:url(images/icon-slides.png) right 0;
+        }
+        .banner .arrow_right:hover{
+            background-position: -42px 0;
+        }
+        .banner ol{
+            position: absolute;
+            right: 34px;
+            bottom: 26px;
+        }
+        .banner ol li{
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            border:2px solid #aeb0b8;
+            background: rgba(0,0,0,.4);
+            float: left;
+            margin-right: 8px;
+            /* 鼠标模拟小手 */
+            cursor: pointer;
+        }
+        .banner ol li:last-child{
+            margin-right: 0;
+        }
+        .banner ol .active{
+            background: #ffffff;
+            border:2px solid rgba(0,0,0,.4);
+        }
+        .banner ol li:hover{
+            background: #ffffff;
+            border:2px solid rgba(0,0,0,.4);
+        }
+        /* banner轮播层样式结束 */

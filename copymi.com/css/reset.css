@@ -1,0 +1,44 @@
+  /* 初始化样式开始 */
+        /* 去掉所有标签的内填充外边距 */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* 去掉li的列表项目符号 */
+        li{
+            list-style:none;
+        }
+        /* 超链接的美化 */
+        a{
+            color:#757575;
+            text-decoration: none;
+        }
+        i{
+            text-decoration: none;
+            font-style: normal;
+        }
+        a:hover{
+            color:#ff6700;
+        }
+        /* 设置整个页面的字体大小和字体名称以及整个网页的背景颜色 */
+        body{
+            font-size:12px;
+            font-family: "微软雅黑";
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        /* 定义一个版心类 */
+        .w{
+            width: 1226px;
+            margin:0 auto;
+        }
+        /* 定义左浮动类 */
+        .fl{
+            float: left;
+        }
+        /* 定义右浮动类 */
+        .fr{
+            float: right;
+        }
+        /* 初始化样式结束 */
